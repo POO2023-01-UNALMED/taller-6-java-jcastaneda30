@@ -7,8 +7,7 @@ public class Camioneta extends Vehiculo {
 		super(placa, puertas, 90, nombre, precio, peso, "4X4", fabricante);
 		this.setVolco(volco);
 		CantidadCamioneta++;
-		fabricante.Vendidos();
-		fabricante.getPais().vender();
+		Vehiculo.vehiculos.add(this);
 	}
 	public boolean getVolco() {
 		return volco;

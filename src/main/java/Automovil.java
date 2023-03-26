@@ -7,8 +7,7 @@ public class Automovil extends Vehiculo {
 		super(placa,4,100,nombre,precio,peso,"FWD",fabricante);
 		this.setPuestos(puestos);
 		CantidadAutomovil++;
-		fabricante.Vendidos();
-		fabricante.getPais().vender();
+		Vehiculo.vehiculos.add(this);
 	}
 	public int getPuestos() {
 		return puestos;

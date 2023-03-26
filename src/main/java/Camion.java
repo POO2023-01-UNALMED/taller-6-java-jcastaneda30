@@ -7,8 +7,7 @@ public class Camion extends Vehiculo{
 		super(placa, 2, 80, nombre, precio, peso, "4X2", fabricante);
 		this.setEjes(ejes);
 		CantidadCamion++;
-		fabricante.Vendidos();
-		fabricante.getPais().vender();
+		Vehiculo.vehiculos.add(this);
 	}
 	public int getEjes() {
 		return ejes;
