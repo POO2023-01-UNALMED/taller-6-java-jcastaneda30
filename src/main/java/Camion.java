@@ -17,66 +17,66 @@ public class Camion extends Vehiculo{
 		this.ejes = ejes;
 	}
 	public String getPlaca() {
-        return placa;
+        return super.placa;
     }
 
     public void setPlaca(String placa) {
-        this.placa = placa;
+        super.placa = placa;
     }
 
     public int getPuertas() {
-        return puertas;
+        return super.puertas;
     }
 
     public void setPuertas(int puertas) {
-        this.puertas = puertas;
+        super.puertas = puertas;
     }
 
     public int getVelocidadMaxima() {
-        return velocidadMaxima;
+        return super.velocidadMaxima;
     }
 
     public void setVelocidadMaxima(int velocidadMaxima) {
-        this.velocidadMaxima = velocidadMaxima;
+        super.velocidadMaxima = velocidadMaxima;
     }
 
     public String getNombre() {
-        return nombre;
+        return super.nombre;
     }
 
     public void setNombre(String nombre) {
-        this.nombre = nombre;
+        super.nombre = nombre;
     }
 
     public int getPrecio() {
-        return precio;
+        return super.precio;
     }
 
     public void setPrecio(int precio) {
-        this.precio = precio;
+        super.precio = precio;
     }
 
     public int getPeso() {
-        return peso;
+        return super.peso;
     }
 
     public void setPeso(int peso) {
-        this.peso = peso;
+        super.peso = peso;
     }
 
     public String getTraccion() {
-        return traccion;
+        return super.traccion;
     }
 
     public void setTraccion(String traccion) {
-        this.traccion = traccion;
+    	super.traccion = traccion;
     }
 
     public Fabricante getFabricante() {
-        return fabricante;
+        return super.fabricante;
     }
 
     public void setFabricante(Fabricante fabricante) {
-        this.fabricante = fabricante;
+    	super.fabricante = fabricante;
     }
 }
