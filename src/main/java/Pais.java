@@ -11,7 +11,7 @@ public class Pais {
 		this.setNombre(nombre);
 	}
 
-	public Pais paisMasVendedor() {
+	public static Pais paisMasVendedor() {
 		for(Vehiculo cosa:Vehiculo.vehiculos) {
 			if(vehiculo2.containsKey(cosa.getFabricante().getPais())) {
 				int valor = vehiculo2.get(cosa.getFabricante().getPais());
