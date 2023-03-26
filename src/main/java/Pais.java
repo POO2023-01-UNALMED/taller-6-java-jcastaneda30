@@ -21,8 +21,8 @@ public class Pais {
 				vehiculo2.put(cosa.getFabricante().getPais(), 1);
 			}
 		}
-		int ventas = Integer.MIN_VALUE; // inicializar con el valor mínimo de un entero
-		Pais fabricador = null; // inicializar con null
+		int ventas = Integer.MIN_VALUE; // 
+		Pais fabricador = null; // 
 		for (Entry<Pais, Integer> entry : vehiculo2.entrySet()) {
 		    if (entry.getValue() > ventas) {
 		        ventas = entry.getValue();

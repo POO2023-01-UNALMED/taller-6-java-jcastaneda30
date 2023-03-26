@@ -28,8 +28,8 @@ public class Fabricante {
 				vehiculo2.put(cosa.getFabricante(), 1);
 			}
 		}
-		int ventas = Integer.MIN_VALUE; // inicializar con el valor mínimo de un entero
-		Fabricante fabricador = null; // inicializar con null
+		int ventas = Integer.MIN_VALUE; 
+		Fabricante fabricador = null; 
 		for (Map.Entry<Fabricante, Integer> entry : vehiculo2.entrySet()) {
 		    if (entry.getValue() > ventas) {
 		        ventas = entry.getValue();
